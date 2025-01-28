@@ -24,7 +24,7 @@ package com.comcast.crm.objectrepositoryutility;
 		private WebElement orgLink;
 		
 		public WebElement getorgLink() {
-			return orgLink;
+			 return orgLink;
 		}
 		
 		@FindBy(xpath=("//a[.='Contacts']"))
@@ -37,7 +37,7 @@ package com.comcast.crm.objectrepositoryutility;
 		private WebElement signoutlink;
 
 		@FindBy(linkText = "Products")
-		private WebElement productLink;
+		 private WebElement productLink;
 		
 
 	
