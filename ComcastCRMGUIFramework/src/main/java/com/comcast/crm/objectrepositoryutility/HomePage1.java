@@ -109,9 +109,7 @@ package com.comcast.crm.objectrepositoryutility;
 				/**
 				 * @param productLink the productLink to set
 				 */
-				public void setProductLink(WebElement productLink) {
-					this.productLink = productLink;
-				}
+			
 				
 				
 				
