@@ -35,6 +35,9 @@ package com.comcast.crm.objectrepositoryutility;
 		
 		@FindBy(linkText = "Sign Out")
 		private WebElement signoutlink;
+
+		@FindBy(linkText = "Products")
+		private WebElement productLink;
 		
 
 	
@@ -98,6 +101,16 @@ package com.comcast.crm.objectrepositoryutility;
 				 */
 				public WebElement getMoreLink() {
 					return MoreLink;
+				}
+				
+				public WebElement getProductLink() {
+					return productLink;
+				}
+				/**
+				 * @param productLink the productLink to set
+				 */
+				public void setProductLink(WebElement productLink) {
+					this.productLink = productLink;
 				}
 				
 				
